@@ -1,0 +1,36 @@
+h1 {
+	font-family: Papyrus,fantasy;
+	font-weight: bold;
+	font-size: 50px;
+}
+body {
+	background-color: hsl(120, 60%, 70%);
+	font-family: Papyrus,fantasy;
+	font-weight: bold;
+	margin: 0px;
+	
+}
+.box {
+	font-size: 26px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(150,150,150,1);
+	font-family: arial;
+	font-family: Papyrus,fantasy;
+}
+.box-1 { background-color: #33897C;}
+.box-2 { background-color: #FFF0A5;}
+.container {
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	flex-wrap: wrap;
+	
+}
+.box {
+	flex-wrap: wrap;
+}
+.box-2 {
+	flex:1;
+}
